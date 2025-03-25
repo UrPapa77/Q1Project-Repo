@@ -16,7 +16,7 @@ Pre-processing was done on Google Sheets, and Weka was used to visualize the mis
 
 How to Reproduce Our Models (e.g. OneR):
   1. download crash_data.csv
-  2. run the colab script to get train/test data, and download those files as train.csv and test.csv respectively
+  2. download train.csv and test.csv
   3. open crash_data.csv in weka and in the “Select attributes” tab, select OneRAttributeEval and use Ranker as a search method
   4. If “Injury Severity” is not already the class, then go to the Preprocess tab, click “Edit” and then right click on “Injury Severity” and select “Attribute as class.” Do this for all future files as well if Injury Severity is not already selected as the class
        - Run this, and select all attributes with a cutoff value of 44.5 or higher
